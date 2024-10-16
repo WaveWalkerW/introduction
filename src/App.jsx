@@ -1,8 +1,8 @@
-import Card from './card.js';
-import Student from './student.js';
-import User from './userg.js';
-import Button from './btn.js'
-import New from './new.js'
+import Card from './card.jsx';
+import Student from './student.jsx';
+import User from './userg.jsx';
+import Button from './btn.jsx'
+import New from './new.jsx'
 
 
 import kairat from './assets/picture.jpg';
