@@ -1,3 +1,4 @@
+
 .card {
   border: 1px solid rgb(187, 187, 187);
   position: relative;
@@ -57,53 +58,6 @@
   color: #333;
 }
 
-.student {
-  font-family: Arial, sans-serif;
-  font-size: 1em;
-  padding: 10px;
-  border: 1px solid rgb(187, 187, 187);
-  max-height: 200px;
-  max-width: 200px;
-}
-
-.Logged {
-  font-size: 2.5em;
-  background-color: green;
-  padding: 10px;
-  margin: 0;
-}
-
-.unLogged {
-  font-size: 3em;
-  background-color: red;
-  padding: 10px;
-  margin: 0;
-}
-
-.list-category {
-  font-size: 2,5em;
-  font-weight: bold;
-  color: hsla(0, 0%, 20%);
-  margin-bottom: 10px;
-  text-align: center; 
-  border: 3px solid black;
-  border-radius: 5px;
-  background-color: hsl(185, 100%, 50%);
-}
-
-.list-items li {
-  font-size: 2em;
-  list-style: none;
-  color: hsl(0, 0%, 25%);
-  text-align: center;
-  margin: 0;
-}
-
-.list-items li:hover {
-  color :hsl(0, 0%, 45%);
-  cursor: pointer;
-} 
-
 .btn {
   display:block;
   max-width: fit-content;
@@ -112,17 +66,13 @@
   box-shadow: 5px 5px 5px rgb(180,180,180);
   border-radius: 10px;
   border: none;
+  color: black;
   padding: 10px 20px;
   cursor: pointer;
   background-color:aliceblue;
 }
 
 #but {
-  margin-top: 50px;
-}
-
-#new {
-  display: none;
   margin-top: 50px;
 }
 
