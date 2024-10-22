@@ -15,13 +15,13 @@ function Button(){
             }
             else card[i].style.display = 'block';
             }
-        if(e.target.textContent == 'See shalopriemnuy') {e.target.textContent = `Hide us`;}
-        else {e.target.textContent = `See shalopriemnuy`}
+        if(e.target.textContent == 'See nudes') {e.target.textContent = `Hide us`;}
+        else {e.target.textContent = `See nudes`}
         }
 
 
     return(
-        <button id='but' className="btn" onClick={(e) => handleClick(e)}>See shalopriemnuy</button>
+        <button id='but' className="btn" onClick={(e) => handleClick(e)}>See nudes</button>
     );
 }
 

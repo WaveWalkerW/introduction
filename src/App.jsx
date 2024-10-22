@@ -20,20 +20,50 @@ function App() {
         
         <Button/>
           <a href='https://kandratiche.github.io/kairat/'>
-            <Card image={kairat} name='Kairat' desc='Программист корейского происхождения'/> 
+            <Card bgImage='https://www.park.edu/wp-content/uploads/2022/09/source-g0d609dba2_1920.jpg' 
+                  image={kairat} 
+                  name='Kairat' 
+                  desc='Программист корейского происхождения'/> 
           </a>
-            <Card image={shama} name='Shamil' desc='Растегательный магнат, готовый скупить все булочки в столовой'/> 
+            <Card bgImage='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRub3FwkV9RqPbwHTHtLhS5RkA6Fw0dvasLEA&s' 
+                  image={shama} 
+                  name='Shamil' 
+                  desc='Растегательный магнат, готовый скупить все булочки в столовой'/> 
           <a href='https://kandratiche.github.io/amir/'>
-            <Card image={ama} name='Amir' desc='Всемирно известный филосов'/> 
+            <Card bgImage='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXjWsN14a5xkwoz8-iZzNlKAyzaJh8gmMACw&s' 
+                  image={ama} 
+                  name='Amir' 
+                  desc='Всемирно известный филосов'/> 
           </a>
-          <Card image={misha} name='Misha' desc='Пенсионер, которого можно раскрутить на деньги'/> 
-          <Card image={zema} name='Zamir' desc='Волк, занимавшийся ремонтом котлов'/> 
-          <Card image={aidana} name='Aidana' desc='Мини мобилограф прямиком из Китая'/> 
-          <Card image={alan} name='Alan' desc='Журналист, со знаменитыми работами: "Когда празднуется 8 марта" и "День женьшеня"'/>
-          <Card image={lyilya} name='Lyailya' desc='Чешский пивной барон, которого знают все, не знающий никого'/> 
-          <Card image={kirya} name='Kirill' desc='Бывший блогер с самой милой улыбкой'/> 
+            <Card bgImage='https://seeklogo.com/images/V/valorant-logo-FAB2CA0E55-seeklogo.com.png' 
+                  image={misha} 
+                  name='Misha' 
+                  desc='Пенсионер, которого можно раскрутить на деньги'/> 
+            <Card bgImage='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx4Js4J2ZcMWZKnduVfnvfMOdsmFqXMRE7hQ&s' 
+                  image={zema} 
+                  name='Zamir' 
+                  desc='Волк, занимавшийся ремонтом котлов'/> 
+            <Card bgImage='https://i.scdn.co/image/ab67616100005174df0b5ac84376a0a4b2166816' 
+                  image={aidana} 
+                  name='Aidana' 
+                  desc='Мини мобилограф прямиком из Китая'/> 
+            <Card bgImage='https://ih1.redbubble.net/image.3775132802.7474/flat,750x,075,f-pad,750x1000,f8f8f8.jpg' 
+                  image={alan} 
+                  name='Alan' 
+                  desc='Журналист, со знаменитыми работами: "Когда празднуется 8 марта" и "День женьшеня"'/>
+            <Card bgImage='' 
+                  image={lyilya} 
+                  name='Lyailya' 
+                  desc='Чешский пивной барон, которого знают все, не знающий никого'/> 
+            <Card bgImage='https://yt3.googleusercontent.com/ytc/AIdro_kQ9Bnind5zsVoMofSb3CmmMiEbkwvtb7x2eRgHjpEKiRQ=s900-c-k-c0x00ffffff-no-rj' 
+                  image={kirya} 
+                  name='Kirill' 
+                  desc='Бывший блогер с самой милой улыбкой'/> 
           <a href='https://kandratiche.github.io/shalopriemnaya/'>
-            <Card image={shalik} name='Shalopriemnaya' desc='See nudes'/>
+            <Card bgImage='https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8818865_p_v8_as.jpg'
+                  image={shalik} 
+                  name='Shaliki' 
+                  desc='See general site'/>
           </a>
           <br/>
           <br/>
