@@ -51,7 +51,7 @@ function App() {
                   image={alan} 
                   name='Alan' 
                   desc='Журналист, со знаменитыми работами: "Когда празднуется 8 марта" и "День женьшеня"'/>
-            <Card bgImage='' 
+            <Card bgImage='https://cdn.discordapp.com/attachments/802140450911158292/1298283167068717106/image.png?ex=6718ffeb&is=6717ae6b&hm=947f151a5fc89bbae53234c7467aee6e1c94262a034f5ec3c9abc115f2c3deaa&' 
                   image={lyilya} 
                   name='Lyailya' 
                   desc='Чешский пивной барон, которого знают все, не знающий никого'/> 

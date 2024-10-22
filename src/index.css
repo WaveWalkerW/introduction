@@ -10,6 +10,7 @@
   max-width: 250px;
   display: none;
   justify-content: center;
+  transition: 0,5 ease;
 }
 
 .card-bg {
