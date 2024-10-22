@@ -1,28 +1,19 @@
 import Card from './card';
 
 
-function Button(){
-    
- 
-    
+function Button() {
     const handleClick = (e) => {
-
-        const card = document.getElementsByClassName('card');
-
-        for (var i=0;i<card.length;i+=1){
-            if(card[i].style.display == 'block'){
-                card[i].style.display = 'none';
-            }
-            else card[i].style.display = 'block';
-            }
-        if(e.target.textContent == 'See nudes') {e.target.textContent = `Hide us`;}
-        else {e.target.textContent = `See nudes`}
+        const cards = document.getElementsByClassName('card');
+        
+        for (let i = 0; i < cards.length; i++) {
+            cards[i].classList.toggle('show');
         }
 
+        e.target.textContent = e.target.textContent === 'See nudes' ? 'Hide us' : 'See nudes';
+    }
 
-    return(
-        <button id='but' className="btn" onClick={(e) => handleClick(e)}>See nudes</button>
+    return (
+        <button id='but' className="btn" onClick={handleClick}>See nudes</button>
     );
 }
-
 export default Button;

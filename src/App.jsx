@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Card from './card.jsx';
 import Button from './btn.jsx'
 
@@ -11,9 +12,32 @@ import lyilya from './assets/lyailya.jpg';
 import kirya from './assets/kirya.jpg';
 import zema from './assets/zema.jpg';
 import shalik from './assets/Shalik.jpg';
+import { useState } from 'react';
 
 
 function App() {
+
+      useEffect(() => {
+        const cards = document.querySelectorAll('.card');
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('show');
+            } else {
+              entry.target.classList.remove('show');
+            }
+          });
+        }, { threshold: 0.1 });
+
+        cards.forEach(card => {
+          observer.observe(card);
+        });
+
+        return () => {
+          cards.forEach(card => observer.unobserve(card));
+        };
+      }, []);
+
 
       return(
         <>
