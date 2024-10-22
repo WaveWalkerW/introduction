@@ -43,7 +43,7 @@ function App() {
 
     return (
         <>
-            <Button onToggle={handleToggle} />
+            <Button onToggle={handleToggle} showCards={showCards} />
             {showCards && (
                 <>
                     <a href='https://kandratiche.github.io/kairat/'>
