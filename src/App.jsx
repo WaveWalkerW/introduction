@@ -62,10 +62,12 @@ function App() {
                             name='Amir'
                             desc='Всемирно известный филосов' />
                     </a>
-                    <Card bgImage='https://seeklogo.com/images/V/valorant-logo-FAB2CA0E55-seeklogo.com.png'
-                        image={misha}
-                        name='Misha'
-                        desc='Пенсионер, которого можно раскрутить на деньги' />
+                    <a href='https://kandratiche.github.io/misha/'>
+                      <Card bgImage='https://seeklogo.com/images/V/valorant-logo-FAB2CA0E55-seeklogo.com.png'
+                          image={misha}
+                          name='Misha'
+                          desc='Пенсионер, которого можно раскрутить на деньги' />
+                    </a>
                     <Card bgImage='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx4Js4J2ZcMWZKnduVfnvfMOdsmFqXMRE7hQ&s'
                         image={zema}
                         name='Zamir'
@@ -78,10 +80,12 @@ function App() {
                         image={alan}
                         name='Alan'
                         desc='Журналист, со знаменитыми работами: "Когда празднуется 8 марта" и "День женьшеня"' />
-                    <Card bgImage='https://cdn.discordapp.com/attachments/802140450911158292/1298283167068717106/image.png?ex=6718ffeb&is=6717ae6b&hm=947f151a5fc89bbae53234c7467aee6e1c94262a034f5ec3c9abc115f2c3deaa&'
-                        image={lyilya}
-                        name='Lyailya'
-                        desc='Чешский пивной барон, которого знают все, не знающий никого' />
+                    <a href='https://kandratiche.github.io/lyailya/'>
+                      <Card bgImage='https://cdn.discordapp.com/attachments/802140450911158292/1298283167068717106/image.png?ex=6718ffeb&is=6717ae6b&hm=947f151a5fc89bbae53234c7467aee6e1c94262a034f5ec3c9abc115f2c3deaa&'
+                          image={lyilya}
+                          name='Lyailya'
+                          desc='Чешский пивной барон, которого знают все, не знающий никого' />
+                    </a>
                     <Card bgImage='https://yt3.googleusercontent.com/ytc/AIdro_kQ9Bnind5zsVoMofSb3CmmMiEbkwvtb7x2eRgHjpEKiRQ=s900-c-k-c0x00ffffff-no-rj'
                         image={kirya}
                         name='Kirill'
