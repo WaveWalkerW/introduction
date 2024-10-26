@@ -91,7 +91,7 @@ function App() {
                         name='Kirill'
                         desc='Бывший блогер с самой милой улыбкой' />
                     <a href='https://kandratiche.github.io/shalopriemnaya/'>
-                        <Card bgImage='https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8818865_p_v8_as.jpg'
+                        <Card bgImage='https://cdn.worldvectorlogo.com/logos/my-little-pony-g4-logo.svg'
                             image={shalik}
                             name='Shaliki'
                             desc='See general site' />
