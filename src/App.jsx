@@ -100,7 +100,7 @@ function App() {
                             name='Kirill'
                             desc='Бывший блогер с самой милой улыбкой' />
                     </a>
-                    <a href='https://kandratiche.github.io/shalopriemnaya/'>
+                    <a href='https://shalopriemnaya.vercel.app/'>
                         <Card bgImage='https://cdn.worldvectorlogo.com/logos/my-little-pony-g4-logo.svg'
                             image={shalik}
                             name='Shaliki'
